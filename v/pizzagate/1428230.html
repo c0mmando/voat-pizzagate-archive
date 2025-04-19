@@ -1,0 +1,279 @@
+<html>
+ <head>
+  <title>
+   Definitive Guide to Staying Safe [from sidebar]
+  </title>
+  <meta content="Post on /v/Pizzagate archived on 2016-11-23 by justice4all." name="description"/>
+  <meta content="Definitive Guide to Staying Safe [from sidebar]" property="og:title"/>
+  <meta content="Post on /v/Pizzagate archived on 2016-11-23 by justice4all." property="og:description"/>
+  <link href="../../page.css" rel="stylesheet"/>
+  <meta content="https://voat.pizzagate.hackliberty.org/post.png" property="og:image"/>
+  <meta content="https://voat.pizzagate.hackliberty.org/1428230.html" property="og:url"/>
+ </head>
+</html>
+<body class="dark">
+ <div id="container">
+  <!-- array (
+  'submissionid' => 1428230,
+  'creationDate' => '2016-11-23 00:30:30',
+  'domain' => NULL,
+  'formattedContent' => '<p>Since there have been links to actual dangerous material posted now, and fears of a honeypot type operation are rising, I figured it was important for all of us to at least be aware of how we can stay relatively safe. That way we can just point people back to this resource and keep all the legitimate concern comments to a minimum and focus on the actual investigation.
+A few things to note first:
+There are always multiple points of failure. Each piece of security advice ignored, means one more possible point of vulnerability somewhere. It\'s hard to ensure you\'ve absolutely covered all of your bases, but this should be enough to at least make tracking you a pain in the ass.
+There is no such thing as being 100% secure. Doing everything here will drastically improve your security, but nothing is guaranteed.
+No amount of technological security can protect you from human error. Be weary of anybody and anything that might prompt you for information.
+Anonymity != Encryption. Anonymity is about making it harder to track you down, but everything you do is still in plain sight. Encryption is about hiding what you have or what you\'re doing, but doesn\'t necessarily hide who you are. Making use of both of these together is the best strategy.
+I have background in software, but I\'m in no way shape or form a security &quot;expert&quot;, so take all this with a grain of salt. And please do feel free to add on or correct anything if you\'re knowledgeable about any of this stuff.
+Anyways, onto the different areas you need to look out for.</p>
+<p><strong>Your Computer</strong></p>
+<p>This aspect is critically important for anyone that\'s even thinking about downloading potentially incriminating evidence. You DO NOT want any of this stuff touching your computer\'s main hard drive. Keeping your pc clean is your last line of defense in a worst case scenario situation.
+Luckily, you can avoid it rather easily. You can run an entire functioning, temporary operating system off a cd or usb drive. And as long as you don\'t deliberately mount your pc\'s hard drive on there, it\'ll simply store data onto your RAM, which is temporary by design.
+The way to do this is with a Linux/Unix distribution that offers a &quot;live cd&quot;. Ideally a security-minded one like Tails, Kali, Qube, BackBox, or OpenBSD. But even a standard user-friendly distro like Mint is better than nothing. Just download the disk image file (.iso) they offer, and burn it onto a CD/DVD or install it on a usb drive.
+A physical disk is slightly safer than a usb drive only because you can\'t accidentally write to those while you\'re using them, and they\'re easier to destroy in case SHTF. But running it off a disk can be noticeably slower. And if you don\'t have access to blank cd\'s/dvd\'s or a disk burner, you might need to go the flash drive route anyway. Installing the .iso file onto a usb drive is also pretty straightforward, though installation procedures can vary from distro to distro, so that might require some more research on your end.
+Just put the prepared disk in your disk drive, or plug in your usb stick, and reboot your pc. Then make sure to select the option to boot from the corresponding drive in your bios somewhere. This will be slightly different from pc to pc, but you can find tons of tutorials on booting off of cds online.</p>
+<p><strong>File Storage</strong></p>
+<p>Rely on storing things locally with encrypted usb drives or sd cards. You can encrypt them with VeraCrypt, and wipe them with BleachBit when you\'re done using them.
+These next services are here just for reference, I wouldn\'t recommend relying on them for backups/storage unless you absolutely have to. These are only useful if you need to share large data dumps online that are too big for encrypted email/messaging services. All of these rely some form of AES / RSA encryption, not PGP.
+MEGA: 50GB of free encrypted storage. Based in New Zeland.
+Tresorit: Paid only. 1TB of storage. Based in Switzerland.
+BoxCryptor: Not really a service, but rather an app to encrypt files for storage on other cloud providers
+ExpireBox: Not encrypted, but does auto-delete files after 2 days.
+Where services are based, and where they store your data (encrypted or not) is important, because you want them to be outside your country\'s jurisdiction, and ideally somewhere with strong privacy/anti-spying laws.
+**Your Internet Connection
+**
+Switching around where you\'re connecting to is more important than just finding a good connection. Ideally, you\'d use like a hotspot with sim cards from some low-frills, pay-as-you-go mobile data provider (there are even some free ones), and reset your connection every once in a while.
+But that\'s also a chore, so the next best thing is public wifi. Anything free with lots of users on it is good. Even better if it doesn\'t make you load up some web page to sign into it.
+If none of those sound viable, you can at least somewhat improve your router situation by flashing an open source firmware on it, but that\'s a bit advanced and not really guaranteed to be much more private.
+Even without special firmware, you should be restarting your router regularly to assign you fresh IP addresses. You\'re also better off if you\'re in an apartment/office complex where there are many other users and routers sharing your general location. You do not want to be the only active internet user in your general vicinity, regardless of your connection method.
+**Routing Your Internet Traffic
+**
+Once you actually have a working connection, you should be re-routing your traffic through a good VPN service that doesn\'t keep logs, and ideally connecting to a server in a country with decent privacy laws. But once again, periodically switching up where you\'re connecting from is more important. Luckily in this case, it\'s as easy as selecting a different connection server in a dropdown menu.
+You could also add in the cliche 100\'s of layers of proxies here, but that\'s probably more trouble than it\'s worth.
+Lastly, there\'s Tor. Everyone knows it\'s not as secure as it used to be now, but it\'s still significantly better than just a VPN and it doesn\'t hurt to try it, especially if you\'re not a noteworthy target for anything. Besides, stacking it on top of all the other measures is only gonna make it harder for them anyway. Remember to periodically request a \'New Tor circuit\' under the onion button for any site you\'re frequenting, and restart the browser from time to time to clear anything it\'s temporarily stored up. And it\'s always smart to read up on what exactly it does, and doesn\'t do.</p>
+<p><strong>Browsing</strong></p>
+<p>The tor browser should be enough for most things, and while using different browsers for different sites doesn\'t hurt, it is a bit of a chore. Though sometimes the tor network can be a bit slow, so in those cases you can try other browsers like Brave, Opera (which has it\'s own built-in VPN service), or SlimJet. But Chromium/FireFox are fine too, just make sure to set them up with any appropriate privacy extensions.
+Either one you choose, make sure to:
+Enable the \'Do Not Track\' option in your settings (mostly just as a precautionary measure. It\'s up to the sites to comply with it, so it doesn\'t actually guarantee anything)
+Disable Cookies
+Disable at least 3rd-party scripts, either in the browser\'s settings, or through an extension like NoScript. Note that some things might not work properly with this on, but you can whitelist stuff as necessary.
+Enable HTTPS Everywhere, either somewhere in your settings or through an extension.
+Disable WebRTC features, might require an extension. (thanks to <a href="https://voat.co/user/sunkenberries">/u/sunkenberries</a>)
+And always pay attention to what URL shows up as in your browser\'s status bar (usually at the bottom) when you hover over a link. Take special note of any addresses that don\'t match up.</p>
+<p><strong>Searching</strong></p>
+<p>I figure most around here know about DuckDuckGo, but there have been questions about it\'s privacy in the past, and it\'s results can be a bit underwhelming without using their &quot;!g&quot; command. But it\'s better than nothing.
+Personally, I use StartPage, as it actually uses google\'s search results directly, and just provides layers of heavy encryption and anonymity on top. The trade-off for that of course, is that it\'s search results are noticeably slower to pop up.</p>
+<p><strong>Email</strong></p>
+<p>Encrypted email service providers:
+Proton Mail: Based in Switzerland
+Tutanota: Based in Germany
+StartMail: Paid only, based in the Netherlands
+If you\'re familiar with HushMail, it\'s worth noting that they have a history of turning over people\'s data.</p>
+<p><strong>Messaging</strong></p>
+<p>For just sharing one-off encrypted messages, there\'s LockBin.
+For actually messaging back-and-forth with people:
+RetroShare: Encrypted, distributed P2P messaging. Works over Tor. Supports voice and video as well.
+Riot / Matrix: End-to-end encryption
+Jitsi: Supports encrypted video calls
+Open Whisper Systems: Supports encrypted phone calls from your actual phone</p>
+<p><strong>Passwords</strong></p>
+<p>Don\'t rely on online password services. Use a local password wallet like KeePass or Enpass. Come up with the master password for your password manager, but always use different generated passwords for everything else. You can double-check the strength of your passwords here.
+If your running this off a live CD, backup your password manager data onto an encrypted flash drive/sd card (as described above) so you can log back into your accounts across sessions.</p>
+<p><strong>Other Stuff</strong></p>
+<p>The EFF has a pretty nice collection of resources on dealing with surveillance and privacy issues if you want to read more about any of this.
+And that\'s about as much as I can think of off the top of my head. Please do shout out any more suggestions or corrections if you have any.</p>',
+  'isAdult' => 0,
+  'isAnonymized' => 0,
+  'subverse' => 'pizzagate',
+  'thumbnail' => '',
+  'title' => 'Definitive Guide to Staying Safe [from sidebar]',
+  'url' => NULL,
+  'userName' => 'justice4all',
+  'archivedLink' => NULL,
+  'archivedDomain' => NULL,
+  'isDeleted' => 0,
+) -->
+  <div style="text-align:center; font-size:24px; font-weight:bold;">
+   Voat /v/Pizzagate Archive
+  </div>
+  <div class="content" role="main">
+   <div class="sitetable linklisting" id="siteTable">
+    <div class="submission id-1428230 link type-text" id="submission-1428230">
+     <a name="submissionTop">
+     </a>
+     <p class="parent">
+     </p>
+     <div class="entry unvoted">
+      <p class="title">
+       <a class="title may-blank" href="" tabindex="1" target="_self" title="Definitive Guide to Staying Safe [from sidebar]">
+        Definitive Guide to Staying Safe [from sidebar]
+       </a>
+       <span class="domain">
+        (
+        <a href="https://archive.searchvoat.co/search.php?s=pizzagate">
+         pizzagate
+        </a>
+        )
+       </span>
+      </p>
+      <p class="tagline">
+       submitted
+       <time datetime="2016-11-23T00:30:30+00:00" title="11/23/2016 12:30:30 AM">2016-11-23T00:30:30</time> by
+       <span class="userattrs">
+        <a class="author may-blank" href="https://archive.searchvoat.co/search.php?u=justice4all">
+         justice4all
+        </a>
+       </span>
+      </p>
+      <div class="expando" style="display: block">
+       <form class="usertext">
+        <div class="usertext-body original may-blank-within" style="display:block">
+         <div class="md">
+          <p>
+           Since there have been links to actual dangerous material posted now, and fears of a honeypot type operation are rising, I figured it was important for all of us to at least be aware of how we can stay relatively safe. That way we can just point people back to this resource and keep all the legitimate concern comments to a minimum and focus on the actual investigation.
+A few things to note first:
+There are always multiple points of failure. Each piece of security advice ignored, means one more possible point of vulnerability somewhere. It's hard to ensure you've absolutely covered all of your bases, but this should be enough to at least make tracking you a pain in the ass.
+There is no such thing as being 100% secure. Doing everything here will drastically improve your security, but nothing is guaranteed.
+No amount of technological security can protect you from human error. Be weary of anybody and anything that might prompt you for information.
+Anonymity != Encryption. Anonymity is about making it harder to track you down, but everything you do is still in plain sight. Encryption is about hiding what you have or what you're doing, but doesn't necessarily hide who you are. Making use of both of these together is the best strategy.
+I have background in software, but I'm in no way shape or form a security "expert", so take all this with a grain of salt. And please do feel free to add on or correct anything if you're knowledgeable about any of this stuff.
+Anyways, onto the different areas you need to look out for.
+          </p>
+          <p>
+           <strong>
+            Your Computer
+           </strong>
+          </p>
+          <p>
+           This aspect is critically important for anyone that's even thinking about downloading potentially incriminating evidence. You DO NOT want any of this stuff touching your computer's main hard drive. Keeping your pc clean is your last line of defense in a worst case scenario situation.
+Luckily, you can avoid it rather easily. You can run an entire functioning, temporary operating system off a cd or usb drive. And as long as you don't deliberately mount your pc's hard drive on there, it'll simply store data onto your RAM, which is temporary by design.
+The way to do this is with a Linux/Unix distribution that offers a "live cd". Ideally a security-minded one like Tails, Kali, Qube, BackBox, or OpenBSD. But even a standard user-friendly distro like Mint is better than nothing. Just download the disk image file (.iso) they offer, and burn it onto a CD/DVD or install it on a usb drive.
+A physical disk is slightly safer than a usb drive only because you can't accidentally write to those while you're using them, and they're easier to destroy in case SHTF. But running it off a disk can be noticeably slower. And if you don't have access to blank cd's/dvd's or a disk burner, you might need to go the flash drive route anyway. Installing the .iso file onto a usb drive is also pretty straightforward, though installation procedures can vary from distro to distro, so that might require some more research on your end.
+Just put the prepared disk in your disk drive, or plug in your usb stick, and reboot your pc. Then make sure to select the option to boot from the corresponding drive in your bios somewhere. This will be slightly different from pc to pc, but you can find tons of tutorials on booting off of cds online.
+          </p>
+          <p>
+           <strong>
+            File Storage
+           </strong>
+          </p>
+          <p>
+           Rely on storing things locally with encrypted usb drives or sd cards. You can encrypt them with VeraCrypt, and wipe them with BleachBit when you're done using them.
+These next services are here just for reference, I wouldn't recommend relying on them for backups/storage unless you absolutely have to. These are only useful if you need to share large data dumps online that are too big for encrypted email/messaging services. All of these rely some form of AES / RSA encryption, not PGP.
+MEGA: 50GB of free encrypted storage. Based in New Zeland.
+Tresorit: Paid only. 1TB of storage. Based in Switzerland.
+BoxCryptor: Not really a service, but rather an app to encrypt files for storage on other cloud providers
+ExpireBox: Not encrypted, but does auto-delete files after 2 days.
+Where services are based, and where they store your data (encrypted or not) is important, because you want them to be outside your country's jurisdiction, and ideally somewhere with strong privacy/anti-spying laws.
+**Your Internet Connection
+**
+Switching around where you're connecting to is more important than just finding a good connection. Ideally, you'd use like a hotspot with sim cards from some low-frills, pay-as-you-go mobile data provider (there are even some free ones), and reset your connection every once in a while.
+But that's also a chore, so the next best thing is public wifi. Anything free with lots of users on it is good. Even better if it doesn't make you load up some web page to sign into it.
+If none of those sound viable, you can at least somewhat improve your router situation by flashing an open source firmware on it, but that's a bit advanced and not really guaranteed to be much more private.
+Even without special firmware, you should be restarting your router regularly to assign you fresh IP addresses. You're also better off if you're in an apartment/office complex where there are many other users and routers sharing your general location. You do not want to be the only active internet user in your general vicinity, regardless of your connection method.
+**Routing Your Internet Traffic
+**
+Once you actually have a working connection, you should be re-routing your traffic through a good VPN service that doesn't keep logs, and ideally connecting to a server in a country with decent privacy laws. But once again, periodically switching up where you're connecting from is more important. Luckily in this case, it's as easy as selecting a different connection server in a dropdown menu.
+You could also add in the cliche 100's of layers of proxies here, but that's probably more trouble than it's worth.
+Lastly, there's Tor. Everyone knows it's not as secure as it used to be now, but it's still significantly better than just a VPN and it doesn't hurt to try it, especially if you're not a noteworthy target for anything. Besides, stacking it on top of all the other measures is only gonna make it harder for them anyway. Remember to periodically request a 'New Tor circuit' under the onion button for any site you're frequenting, and restart the browser from time to time to clear anything it's temporarily stored up. And it's always smart to read up on what exactly it does, and doesn't do.
+          </p>
+          <p>
+           <strong>
+            Browsing
+           </strong>
+          </p>
+          <p>
+           The tor browser should be enough for most things, and while using different browsers for different sites doesn't hurt, it is a bit of a chore. Though sometimes the tor network can be a bit slow, so in those cases you can try other browsers like Brave, Opera (which has it's own built-in VPN service), or SlimJet. But Chromium/FireFox are fine too, just make sure to set them up with any appropriate privacy extensions.
+Either one you choose, make sure to:
+Enable the 'Do Not Track' option in your settings (mostly just as a precautionary measure. It's up to the sites to comply with it, so it doesn't actually guarantee anything)
+Disable Cookies
+Disable at least 3rd-party scripts, either in the browser's settings, or through an extension like NoScript. Note that some things might not work properly with this on, but you can whitelist stuff as necessary.
+Enable HTTPS Everywhere, either somewhere in your settings or through an extension.
+Disable WebRTC features, might require an extension. (thanks to
+           <a href="https://archive.searchvoat.co/user/sunkenberries">
+            /u/sunkenberries
+           </a>
+           )
+And always pay attention to what URL shows up as in your browser's status bar (usually at the bottom) when you hover over a link. Take special note of any addresses that don't match up.
+          </p>
+          <p>
+           <strong>
+            Searching
+           </strong>
+          </p>
+          <p>
+           I figure most around here know about DuckDuckGo, but there have been questions about it's privacy in the past, and it's results can be a bit underwhelming without using their "!g" command. But it's better than nothing.
+Personally, I use StartPage, as it actually uses google's search results directly, and just provides layers of heavy encryption and anonymity on top. The trade-off for that of course, is that it's search results are noticeably slower to pop up.
+          </p>
+          <p>
+           <strong>
+            Email
+           </strong>
+          </p>
+          <p>
+           Encrypted email service providers:
+Proton Mail: Based in Switzerland
+Tutanota: Based in Germany
+StartMail: Paid only, based in the Netherlands
+If you're familiar with HushMail, it's worth noting that they have a history of turning over people's data.
+          </p>
+          <p>
+           <strong>
+            Messaging
+           </strong>
+          </p>
+          <p>
+           For just sharing one-off encrypted messages, there's LockBin.
+For actually messaging back-and-forth with people:
+RetroShare: Encrypted, distributed P2P messaging. Works over Tor. Supports voice and video as well.
+Riot / Matrix: End-to-end encryption
+Jitsi: Supports encrypted video calls
+Open Whisper Systems: Supports encrypted phone calls from your actual phone
+          </p>
+          <p>
+           <strong>
+            Passwords
+           </strong>
+          </p>
+          <p>
+           Don't rely on online password services. Use a local password wallet like KeePass or Enpass. Come up with the master password for your password manager, but always use different generated passwords for everything else. You can double-check the strength of your passwords here.
+If your running this off a live CD, backup your password manager data onto an encrypted flash drive/sd card (as described above) so you can log back into your accounts across sessions.
+          </p>
+          <p>
+           <strong>
+            Other Stuff
+           </strong>
+          </p>
+          <p>
+           The EFF has a pretty nice collection of resources on dealing with surveillance and privacy issues if you want to read more about any of this.
+And that's about as much as I can think of off the top of my head. Please do shout out any more suggestions or corrections if you have any.
+          </p>
+         </div>
+        </div>
+       </form>
+      </div>
+      <ul class="flat-list buttons">
+       <li class="first">
+        <a class="comments may-blank" href="https://archive.searchvoat.co/v/pizzagate/1428230" rel="nofollow">
+         No comments
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+     </div>
+    </div>
+    <div class="clearleft">
+    </div>
+   </div>
+   <div class="horizontal-line">
+   </div>
+   <div class="commentarea">
+    <div class="sitetable nestedlisting" id="siteTable">
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="footer-container">
+ </div>
+</body>
